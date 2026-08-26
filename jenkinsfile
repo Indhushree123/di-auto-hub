@@ -32,7 +32,7 @@ pipeline {
             usernameVariable: 'DOCKER_USER',
             passwordVariable: 'DOCKER_PASS'
         )]) {
-            bat 'echo %DOCKER_PASS% | docker login -u %DOCKER_USER% --password-stdin'
+            bat 'powershell -NoProfile -Command "$env:DOCKER_PASS | docker login -u $env:DOCKER_USER --password-stdin"'
             bat 'docker tag di-auto-hub:latest %DOCKER_USER%/di-auto-hub:latest'
             bat 'docker push %DOCKER_USER%/di-auto-hub:latest'
         }
