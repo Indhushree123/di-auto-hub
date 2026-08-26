@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DI Automobiles | Premium Automobile Showroom</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== WELCOME / LOGO SCREEN ===== -->
+    <section id="welcome" class="welcome-screen">
+
+        <div class="welcome-content">
+            <img src="logo.jpeg" alt="DI Automobiles Logo">
+
+            <h1>DI AUTOMOBILES</h1>
+
+            <p>Your Dream Ride Starts Here...</p>
+
+            <button onclick="enterShowroom()">
+                ENTER SHOWROOM
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- ===== MAIN WEBSITE ===== -->
+    <div id="mainWebsite">
+
+        <!-- ===== NAVBAR ===== -->
+        <header>
+            <nav class="navbar">
+
+                <div class="brand">
+                    <img src="logo.jpeg" alt="DI Automobiles">
+                    <span>DI AUTOMOBILES</span>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cars">Cars</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#consultation">Consultation</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <button class="login-btn">Login</button>
+
+            </nav>
+        </header>
+
+
+        <!-- ===== HOME ===== -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="welcome-text">WELCOME TO</p>
+
+                <h1>DI AUTOMOBILES</h1>
+
+                <h2>Luxury. Performance. Excellence.</h2>
+
+                <p>
+                    Discover premium automobiles, trusted services
+                    and expert consultation — all in one place.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#cars">Explore Cars</a>
+                    <a href="#consultation">Book Consultation</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== CARS ===== -->
+        <section id="cars">
+
+            <h2>Our Cars</h2>
+
+            <p>Explore our premium automobile collection.</p>
+
+            <div class="car-container">
+
+                <div class="car-card">
+                    <div class="car-image">Car Image</div>
+                    <h3>Luxury Sedan</h3>
+                    <p>Starting from ₹25 Lakhs</p>
+                    <button>View Details</button>
+                </div>
+
+                <div class="car-card">
+                    <div class="car-image">Car Image</div>
+                    <h3>Premium SUV</h3>
+                    <p>Starting from ₹35 Lakhs</p>
+                    <button>View Details</button>
+                </div>
+
+                <div class="car-card">
+                    <div class="car-image">Car Image</div>
+                    <h3>Sports Car</h3>
+                    <p>Starting from ₹50 Lakhs</p>
+                    <button>View Details</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== SERVICES ===== -->
+        <section id="services">
+
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+
+                <div class="service-card">
+                    <h3>Car Service</h3>
+                    <p>Professional vehicle servicing and maintenance.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Maintenance</h3>
+                    <p>Complete maintenance for your automobile.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Insurance Assistance</h3>
+                    <p>Get assistance with Automobile insurance.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Roadside Assistance</h3>
+                    <p>Support whenever you need help on the road.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Car Detailing</h3>
+                    <p>Premium interior and exterior car care.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Test Drive</h3>
+                    <p>Experience your dream car before you decide.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== OFFERS ===== -->
+        <section id="offers">
+
+            <h2>Exclusive Offers</h2>
+
+            <div class="offer-container">
+
+                <div class="offer-card">
+                    <h3>New Car Offers</h3>
+                    <p>Special offers on selected premium cars.</p>
+                </div>
+
+                <div class="offer-card">
+                    <h3>Exchange Offers</h3>
+                    <p>Exchange your existing car for your dream car.</p>
+                </div>
+
+                <div class="offer-card">
+                    <h3>Finance Offers</h3>
+                    <p>Flexible finance options for eligible customers.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== CONSULTATION ===== -->
+        <section id="consultation">
+
+            <h2>Book a Consultation</h2>
+
+            <p>
+                Talk to our automobile experts and find the right car for you.
+            </p>
+
+            <form id="consultationForm">
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="tel" placeholder="Phone Number" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <select required>
+                    <option value="">Select Consultation Type</option>
+                    <option>Car Purchase</option>
+                    <option>Car Service</option>
+                    <option>Finance</option>
+                    <option>Insurance</option>
+                    <option>Car Exchange</option>
+                </select>
+
+                <textarea
+                    placeholder="Tell us what you are looking for">
+                </textarea>
+
+                <button type="submit">
+                    Book Consultation
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about">
+
+            <h2>About DI Automobiles</h2>
+
+            <p>
+                DI Automobiles is a premium automobile showroom
+                offering quality cars, professional services and
+                trusted consultation for every customer.
+            </p>
+
+        </section>
+
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>📍 DI Automobiles Showroom</p>
+            <p>📞 +91 72006 33303</p>
+            <p>✉️ contact@diautomobiles.com</p>
+            <p>🕒 Monday - Sunday | 9:00 AM - 8:00 PM</p>
+
+        </section>
+
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+
+            <img src="logo.jpeg" alt="DI Automobiles">
+
+            <h3>DI AUTOMOBILES</h3>
+
+            <p>Your Dream Ride Starts Here...</p>
+
+            <p>
+                © 2026 DI Automobiles. All Rights Reserved.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
