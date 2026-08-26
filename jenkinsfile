@@ -20,6 +20,11 @@ pipeline {
                 echo 'Testing DI Auto Hub project...'
             }
         }
+        stage('Docker Build') {
+            steps {
+                bat 'docker build -t di-auto-hub:latest .'
+            }
+        }
     }
 
     post {
